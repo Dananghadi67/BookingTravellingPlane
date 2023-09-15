@@ -1,0 +1,502 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3fff4;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-secondary:hover {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: #746c49;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Hero Section */
+
+#hero {
+  background-color: #faefbf;
+  padding-top: 4rem;
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 80%;
+  width: 40%;
+}
+
+.hero-tagline h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Layanan */
+
+#layanan {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #079561;
+  border-radius: 50%;
+}
+
+.card-layanan h3 {
+  color: #000;
+  font-size: 24px;
+}
+
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+}
+
+/* Hover Layanan */
+
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #079561;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.005);
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon:hover {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.circle-img hover {
+  width: 40px;
+  height: 40px;
+}
+
+.card-layanan:hover h3 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.card-layanan:hover p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.card.service-card:before {
+  content: '';
+  position: absolute;
+  left: 0.625rem;
+  bottom: 0.625rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: #df6951;
+  border-radius: 1.875rem 0 0.625rem 0;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+  .card.service-card:before {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 1.25rem 0 0.5rem 0;
+  }
+}
+
+.card.service-card:hover:before {
+  left: -1.875rem;
+  bottom: -2.1875rem;
+}
+
+@media (max-width: 767.98px) {
+  .card.service-card:hover:before {
+    left: -0.9375rem;
+    bottom: -1.5625rem;
+  }
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+/* Contact & Footer */
+#contact {
+  background-image: url(../transportasi/img/bg\ bus.png);
+  margin-top: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+  padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+  width: 450px;
+}
+
+#contact h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 19px 0 14px 0;
+}
+
+.kontak a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  width: 332px;
+  display: inline-block;
+}
+
+.linkbuskita {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card-contact {
+  width: 100%;
+  height: 445px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 52px 48px;
+}
+
+.card-contact h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.form-control {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.form-floating label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+}
+
+.button-kontak {
+  width: 100%;
+  height: 75px;
+  background: #ffcc00;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+}
+
+footer {
+  width: 100%;
+  height: 270px;
+  background: #000000;
+}
+
+.copyright {
+  bottom: 1%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+footer a {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Contact & Footer */
+
+/* daftar tiket */
+
+#daftarpesawat {
+  padding-top: 6rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.button-tambahpswt {
+  width: 133px;
+  height: 40px;
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/* tambah tiket */
+#tambahpesawat {
+  padding-top: 5rem;
+}
+
+/* Login */
+.page-content {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffcc00;
+  margin: auto;
+}
+
+#login {
+  background-color: #ffcc00;
+  padding-top: 4rem;
+  height: 100vh;
+  width: 100%;
+}
+
+.auth-card {
+  background-color: #fff;
+  box-shadow: 0 3px 12 rgb(0, 0, 0/ 0.2);
+  border-radius: 20px;
+  padding: 10px 10%;
+}
+
+.logo-area {
+  padding: 10px 10%;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+#login h4 {
+  color: #000;
+  text-align: center;
+}
+
+#login p {
+  color: #079561;
+  text-align: center;
+}
+
+.service-btn {
+  background-color: #fff;
+  border: 1px solid #079561;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  width: 100%;
+  height: 45px;
+  color: #079561;
+  box-shadow: none !important;
+}
+
+.service-btn:hover {
+  background-color: #079561;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  box-shadow: none !important;
+}
+
+.service-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.auth-input {
+  background: #d0d3d4;
+  height: 45px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+
+.auth-input:focus {
+  color: #079561;
+  background: #fff;
+  height: 45px;
+  border: 1px solid #079561;
+  border-radius: 10px;
+}
+
+.auth-btn {
+  background-color: #079561;
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.auth-btn:hover {
+  background-color: #079561;
+  color: #dcdcdc;
+}
+
+#detail {
+  padding-top: 5rem;
+}
+
+/* Sign Up */
+#signup {
+  padding-top: 4rem;
+  background: #079561;
+}
+
+.col-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#signup h4 {
+  color: #000;
+  text-align: center;
+}
+
+#signup p {
+  color: #079561;
+  text-align: center;
+}
+
+.form-signup {
+  background: #d0d3d4;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+
+.form-signup:focus {
+  color: #079561;
+  background: #fff;
+  border: 1px solid #079561;
+  border-radius: 10px;
+}
